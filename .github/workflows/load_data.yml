@@ -1,11 +1,11 @@
 name: Load Raw Data like artifact to wandb
 
-on:
-  push:
-    branches:
-      - main
-    paths:
-      - 'src/data/load.py'
+# on:
+#   push:
+#     branches:
+#       - main
+#     paths:
+#       - 'src/data/load.py'
 
 on: workflow_dispatch
 
